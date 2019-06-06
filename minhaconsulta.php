@@ -13,39 +13,35 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Logout</li>
+        <div class="nav navbar ">
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="config/logout.php">Logout</a></li>
             </ul>
-        </nav>
-        <div class="container">
-        <div class="sics-details-wrapper"><!--div principal-->
-            <div class="hdrs">
-                <h3>Detalhes do serviço</h3>
-                <h6>[DADOS DA OFICINA]</h6>
+        </div>
+        <div class="container-fluid">
+            <div class="details">
+                <div class="left-details">
+                    <h5>Dados do veículo</h5>
+                    <ul class="left-details-list">
+                        <li>Modelo: Cobalt</li>
+                        <li>Ano: 2015</li>
+                        <li>Marca: Chevrolet</li>
+                        <li>Cor: Cinza</li>
+                    </ul>
+                </div>
+                <div class="right-details">
+                    <h5>Dados da oficina e etapas</h5>
+                    <ul>
+                        <li>Modelo:</li>
+                        <li>Ano</li>
+                        <li>Marca:</li>
+                        <li>Cor:</li>
+                    </ul>
+                </div>
+                </div>
+                
             </div>
-        <div class="sics-left-details">
-            <ul class="sics-list">
-                <li class="sics-list-item"><strong>Código: </strong> RT-999999</li>
-                 <li class="sics-list-item"><strong>Veículo: </strong> 206</li>
-                 <li class="sics-list-item"><strong>Marca: </strong>Peugeot</li>
-                 <li class="sics-list-item"><strong>Código: </strong>RT-999999</li>
-            </ul>
-            
-        </div>
-        <div class="sics-right-details">
-            <ul class="sics-list">
-                <li class="sics-list-item "><strong>Descrição: </strong> Paralama e porta</li>
-                <li class="sics-list-item "><strong>Etapa: </strong>Iniciando</li>
-                <li class="sics-list-item"><strong>Conclusão (%):</strong>15.0</li>
-                <button class="sics-button sics-button-primary align-right">Ver mais</button>
-            </ul>
-        </div>
-        
-            
-        
-        </div><!--/div principal-->
         <div id="escondida"></div>
         </div>
     </body>
