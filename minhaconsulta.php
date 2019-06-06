@@ -43,6 +43,6 @@ and open the template in the editor.
                 
             </div>
         <div id="escondida"></div>
-        </div>
+
     </body>
 </html>
